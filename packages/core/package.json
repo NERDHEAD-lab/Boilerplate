@@ -1,0 +1,14 @@
+{
+  "name": "@example/core",
+  "version": "0.1.0",
+  "description": "Core functionality for the application",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

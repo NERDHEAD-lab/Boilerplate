@@ -1,0 +1,29 @@
+{
+  "name": "@example/cli",
+  "version": "0.1.0",
+  "description": "CLI for the application",
+  "main": "dist/index.js",
+  "bin": {
+    "myapp-cli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "@example/core": "file:../core",
+    "blessed": "^0.1.81",
+    "ink": "^6.3.1",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.7.1",
+    "@types/react": "^19.2.2",
+    "tsx": "^4.20.6"
+  }
+}
